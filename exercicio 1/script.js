@@ -13,4 +13,5 @@ console.log(`
     valor novo ${valorNovo.toFixed(2)}
     `)
 }
+//teste
 quilowatts()
