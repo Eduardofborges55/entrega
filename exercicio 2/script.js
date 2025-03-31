@@ -6,6 +6,7 @@ let valorProduto = parseFloat(prompt(`valor do produto sem desconto`));
 let novovalorcomdesconto = valorProduto * 0.91;
 let valorfinal = valorProduto - novovalorcomdesconto
 console.log(`
+    valororiginal ${valorProduto}
     novovalorcomdesconto ${novovalorcomdesconto}
     valorfinal ${valorfinal}
     `)
