@@ -7,7 +7,7 @@
 // reposição, exiba a quantidade de fitas que a locadora terá no final do ano.
 function locadora(){
 let Quantidade_De_Fitas_Inicio_Do_Ano = parseInt(prompt(`Quantidade de fitas que a loucadora possui`))
-let Quantidade_De_Fitas_Alugadas_No_Mês = Quantidade_De_Fitas_Inicio_Do_Ano / 0.33;
+let Quantidade_De_Fitas_Alugadas_No_Mês = Quantidade_De_Fitas_Inicio_Do_Ano * 0.33;
 let Valor_Aluguel_Fita = parseFloat(prompt(`escreva o valor da Fita`));
 let quantidade_De_Fitas_Estragadas = Quantidade_De_Fitas_Alugadas_No_Mês * 0.02; 
 let Multa_Aluguel_Fita = Valor_Aluguel_Fita / 10;
